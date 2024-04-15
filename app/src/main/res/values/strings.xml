@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Agr Reader</string>
+    <string name="all">All</string>
+    <plurals name="all_desc">
+        <item quantity="one">%1$d Archived Item</item>
+        <item quantity="other">%1$d Archived Items</item>
+    </plurals>
+    <string name="unread">Unread</string>
+    <plurals name="unread_desc">
+        <item quantity="one">%1$d Unread Item</item>
+        <item quantity="other">%1$d Unread Items</item>
+    </plurals>
+    <string name="starred">Starred</string>
+    <plurals name="starred_desc">
+        <item quantity="one">%1$d Starred Item</item>
+        <item quantity="other">%1$d Starred Items</item>
+    </plurals>
+    <string name="feeds">Feeds</string>
+    <string name="syncing">Syncing…</string>
+    <string name="loading">Loading…</string>
+    <string name="expand_less">Shrink</string>
+    <string name="expand_more">Expand</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="defaults">Default</string>
+    <string name="unknown">Unknown</string>
+    <string name="empty">Empty</string>
+    <string name="back">Back</string>
+    <string name="go_to">Go to</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="searching">Searching…</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="add_subscribe">Add subscription</string>
+    <string name="already_subscribed">Already subscribed</string>
+    <string name="clear">Clear</string>
+    <string name="paste">Paste</string>
+    <string name="feed_or_site_url">RSS Feed URL</string>
+    <string name="preset">Preset</string>
+    <string name="selected">Selected</string>
+    <string name="allow_notification">Whether to allow push notifications</string>
+    <string name="all_allow_notification_tips">Allow all feeds in the \"%1$s\" group to send notifications.</string>
+    <string name="all_allow_notification_toast">All notifications from the \"%1$s\" group are allowed</string>
+    <string name="all_deny_notification_toast">All notifications from the \"%1$s\" group are denied</string>
+    <string name="parse_full_content">Article content source</string>
+    <string name="all_parse_full_content_tips">Full content parsing of all articles in the \"%1$s\" group.</string>
+    <string name="all_parse_full_content_toast">Full content parsing of all articles in the \"%1$s\" group</string>
+    <string name="all_deny_parse_full_content_toast">No more full content parsing of all articles in the \"%1$s\" group</string>
+    <string name="clear_articles">Clear Articles</string>
+    <string name="clear_articles_in_feed_toast">Cleaned all archived of articles in the \"%1$s\" feed</string>
+    <string name="clear_articles_in_group_toast">Cleaned all archived of articles in the \"%1$s\" group</string>
+    <string name="clear_articles_feed_tips">Clear all archived of articles in \"%1$s\" feed.</string>
+    <string name="clear_articles_group_tips">Clear all archived of articles in \"%1$s\" group.</string>
+    <string name="add_to_group">Add to Group</string>
+    <string name="move_to_group">Move to Group</string>
+    <string name="all_move_to_group_tips">Move all feeds in the \"%1$s\" group to the \"%2$s\" group.</string>
+    <string name="all_move_to_group_toast">Moved all feeds to the \"%1$s\" group</string>
+    <string name="rename_feed">Rename feed</string>
+    <string name="change_url">Change current subscription URL</string>
+    <string name="feed_url_placeholder" translatable="false">http://example.com/feed.rss</string>
+    <string name="rename_toast">Renamed to \"%1$s\"</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="group_delete_toast">Group "%s" deleted</string>
+    <string name="name">Name</string>
+    <string name="open_with">Open %1$s</string>
+    <string name="options">Options</string>
+    <string name="delete">Delete</string>
+    <string name="delete_toast">Deleted \"%1$s\"</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="unsubscribe_tips">Unsubscribe from \"%1$s\" and delete all archived articles in it.</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="delete_group_tips">Delete the \"%1$s\" group and all feeds under it will be moved to the default group.</string>
+    <string name="group_option_tips">The following options will be applied to all feeds in this group.</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="date_at_time">%1$s at %2$s</string>
+    <string name="search_for">Search for %1$s items</string>
+    <string name="mark_as_read">Mark as Read</string>
+    <string name="mark_all_as_read">Mark All as Read</string>
+    <string name="mark_all_as_read_description">Whether to mark all articles of \"%s\" as read</string>
+    <string name="mark_as_unread">Mark as Unread</string>
+    <string name="mark_as_starred">Mark as Starred</string>
+    <string name="mark_as_unstar">Mark as Unstar</string>
+    <string name="mark_as_read_one_day">Mark as Read More Than 1 Day</string>
+    <string name="mark_as_read_three_days">Mark as Read More Than 3 Days</string>
+    <string name="mark_as_read_seven_days">Mark as Read More Than 7 Days</string>
+    <string name="one_day">1d</string>
+    <string name="three_days">3d</string>
+    <string name="seven_days">7d</string>
+    <string name="close">Close</string>
+    <string name="get_new_updates">New version has been released</string>
+    <string name="get_new_updates_desc">New version %1$s is available</string>
+    <string name="in_coding">In coding</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="rss_accounts">RSS accounts</string>
+    <string name="accounts">Accounts</string>
+    <string name="universal">Universal</string>
+    <string name="universal_desc">RSS related, basic settings</string>
+    <string name="accounts_desc">Local, FreshRSS</string>
+    <string name="color_and_style">Color &amp; style</string>
+    <string name="color_and_style_desc">Theme, color style, font size</string>
+    <string name="interaction">Interaction</string>
+    <string name="interaction_desc">Page interaction related</string>
+    <string name="languages">Languages</string>
+    <string name="languages_desc">English, Chinese, more</string>
+    <string name="help_translate">Help translate</string>
+    <string name="translatable_url" translatable="false">https://hosted.weblate.org/projects/readyou/</string>
+    <string name="use_device_languages">Use device language</string>
+    <string name="english" translatable="false">English</string>
+    <string name="chinese_simplified" translatable="false">简体中文</string>
+    <string name="german" translatable="false">Deutsch</string>
+    <string name="french" translatable="false">Français</string>
+    <string name="czech" translatable="false">Čeština</string>
+    <string name="italian" translatable="false">Italiano</string>
+    <string name="hindi" translatable="false">हिंदी</string>
+    <string name="spanish" translatable="false">Español</string>
+    <string name="polish" translatable="false">Polski</string>
+    <string name="russian" translatable="false">Русский</string>
+    <string name="basque" translatable="false">Euskara</string>
+    <string name="indonesian" translatable="false">Bahasa Indonesia</string>
+    <string name="chinese_traditional" translatable="false">繁體中文</string>
+    <string name="tips_and_support">Tips &amp; support</string>
+    <string name="tips_and_support_desc">About, open source licenses</string>
+    <string name="welcome">Welcome</string>
+    <string name="tos_tips">Read and agree to Read You\'s Terms of Service and Privacy Policy to continue.</string>
+    <string name="browse_tos_tips">Browse the &lt;i&gt;&lt;u&gt;Terms of Service and Privacy Policy&lt;/u&gt;&lt;/i&gt;
+    </string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="tos_content">
+        &lt;h5&gt;
+
+        Privacy Policy
+
+        &lt;/h5&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+
+        I take your privacy very seriously.
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+        &lt;b&gt;Read You&lt;/b&gt;
+
+        does not collect any user data, and all sensitive information (passwords and other account information) is
+        securely stored in the local application database on your device.
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+        &lt;b&gt;Read You&lt;/b&gt;
+
+        will use the following permissions to provide you with the service.
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+
+        - Access Network permission (for accessing online content as you specify)
+
+        &lt;/p&gt;
+        &lt;p&gt;
+
+        - Get network status permission (for getting whether the device currently has available network conditions)
+
+        &lt;/p&gt;
+        &lt;p&gt;
+
+        - Background service permission (to automatically sync your favorites for you on a regular
+        basis)
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;h5&gt;
+
+        Third Party Services
+
+        &lt;/h5&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+
+        This policy does not apply to third-party services that you use with &lt;b&gt;Read You&lt;/b&gt;. You can review
+        the privacy policies of the third-party services you use on their websites
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;h5&gt;
+
+        Disclaimers
+
+        &lt;/h5&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+        &lt;b&gt;Read You&lt;/b&gt;
+
+        is a content collection tool only. Your use of &lt;b&gt;Read You&lt;/b&gt; is subject to the laws and
+        regulations of your country and region, and any liability arising from your actions will be borne by you
+        personally.
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;h5&gt;
+
+        Open Source License
+
+        &lt;/h5&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+        &lt;b&gt;Read You&lt;/b&gt;
+
+        is an open source project under the GNU GPL 3.0 Open Source License[1], which allows you to use, reference, and
+        modify the source code of &lt;b&gt;Read You&lt;/b&gt; for free, but does not allow the
+        modified and derived code to be distributed and sold as closed-source commercial software. For details, please
+        see the full GNU GPL 3.0 Open Source License[2].
+
+        &lt;/p&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;h5&gt;
+
+        Appendix
+
+        &lt;/h5&gt;
+        &lt;br/&gt;
+        &lt;p&gt;
+
+        - [1] https://github.com/Ashinch/ReadYou
+
+        &lt;/p&gt;
+        &lt;p&gt;
+
+        - [2] https://www.gnu.org/licenses/gpl-3.0.html
+
+        &lt;/p&gt;
+    </string>
+    <string name="agree">Agree</string>
+    <string name="wallpaper_colors">Wallpaper colors</string>
+    <string name="no_palettes">No Palettes</string>
+    <string name="only_android_8.1_plus">Only Android 8.1+</string>
+    <string name="basic_colors">Basic colors</string>
+    <string name="primary_color">Primary Color</string>
+    <string name="primary_color_hint">Like #666666 or 666666</string>
+    <string name="appearance">Appearance</string>
+    <string name="style">Style</string>
+    <string name="style_settings_summary">Page style settings</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="use_device_theme">Use device theme</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="other">Other</string>
+    <string name="amoled_dark_theme">AMOLED dark theme</string>
+    <string name="tonal_elevation">Tonal elevation</string>
+    <string name="reading_fonts">Reading fonts</string>
+    <string name="basic_fonts">Basic fonts</string>
+    <string name="feeds_page">Feeds page</string>
+    <string name="flow_page">Flow page</string>
+    <string name="reading_page">Reading page</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="github_link" translatable="false">https://github.com/Ashinch/ReadYou</string>
+    <string name="telegram_link" translatable="false">https://t.me/ReadYouApp</string>
+    <string name="update_link" translatable="false">""</string>
+    <string name="change_log">Changelog</string>
+    <string name="update">Update</string>
+    <string name="skip_this_version">Skip This Version</string>
+    <string name="checking_updates">Checking for updates…</string>
+    <string name="is_latest_version">This is latest version</string>
+    <string name="check_failure">Could not check for updates</string>
+    <string name="download_failure">Could not download for updates</string>
+    <string name="rate_limit">The request rate is limited</string>
+    <string name="help">Help</string>
+    <string name="on_start">On Start</string>
+    <string name="initial_page">Initial page</string>
+    <string name="initial_filter">Initial filter</string>
+    <string name="preview_article_title">The novel "Lord of the Mysteries" has finally come to an end</string>
+    <string name="preview_article_desc">Stray birds of summer come to my window to sing and fly away. And yellow leaves of autumn, which have no songs, flutter and fall there with a sign.\n夏天的飞鸟，飞到我的窗前唱歌，又飞去了。秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。</string>
+    <string name="preview_feed_name">Reddit</string>
+    <string name="value">value</string>
+    <string name="horizontal_padding">Horizontal padding</string>
+    <string name="article_date">Article publication time</string>
+    <string name="article_desc">Article descriptions</string>
+    <string name="article_images">Article images</string>
+    <string name="feed_names">Feed names</string>
+    <string name="feed_favicons">Feed favicons</string>
+    <string name="article_date_sticky_header">Sticky header for publication date (experimental)</string>
+    <string name="article_list">Article List</string>
+    <string name="group_list">Group List</string>
+    <string name="always_expand">Always expand</string>
+    <string name="top">Top</string>
+    <string name="mark_as_read_button_position">\"Mark as Read\" button position</string>
+    <string name="top_bar">Top Bar</string>
+    <string name="fill_selected_icon">Fill the selected icon</string>
+    <string name="filter_bar">Filter Bar</string>
+    <string name="icons">Icons</string>
+    <string name="icons_and_labels">Icons and Labels</string>
+    <string name="icons_and_label_only_selected">Icons and Label (Only Selected)</string>
+    <string name="tips_top_bar_tonal_elevation">This tonal elevation is only available when scrolling.</string>
+    <string name="tips_article_list_tonal_elevation">This tonal elevation is only available in the light theme.</string>
+    <string name="tips_group_list_tonal_elevation">This tonal elevation is only available in the light theme.</string>
+    <string name="share">Share</string>
+    <string name="touch_to_play_video">Touch to play video</string>
+    <string name="text">Text</string>
+    <string name="font_size">Font size</string>
+    <string name="letter_spacing">Letter spacing</string>
+    <string name="line_spacing">Line spacing</string>
+    <string name="alignment">Alignment</string>
+    <string name="general">General</string>
+    <string name="auto_hide_toolbars">Auto hide toolbars</string>
+    <string name="rearrange_buttons">Rearrange buttons</string>
+    <string name="bionic_reading">Bionic Reading</string>
+    <string name="images">Images</string>
+    <string name="rounded_corners">Rounded corners</string>
+    <string name="videos">Videos</string>
+    <string name="align_left">Align left</string>
+    <string name="align_right">Align right</string>
+    <string name="center_text">Center text</string>
+    <string name="justify">Justify</string>
+    <string name="external_fonts">External fonts</string>
+    <string name="title">Title</string>
+    <string name="bold">Bold</string>
+    <string name="upper_case">Upper case</string>
+    <string name="subhead">Subhead</string>
+    <string name="use_app_theme">Use app theme</string>
+    <string name="advanced">Advanced</string>
+    <string name="dark_reading_theme">Dark reading theme</string>
+    <string name="title_desc">Bold, upper case, alignment</string>
+    <string name="text_desc">Font size, letter spacing, alignment</string>
+    <string name="images_desc">Rounded corners, horizontal padding</string>
+    <string name="videos_desc">Rounded corners, horizontal padding</string>
+    <string name="maximize">Maximize</string>
+    <string name="every_15_minutes">Every 15 minutes</string>
+    <string name="every_30_minutes">Every 30 minutes</string>
+    <string name="every_1_hour">Every hour</string>
+    <string name="every_2_hours">Every 2 hours</string>
+    <string name="every_3_hours">Every 3 hours</string>
+    <string name="every_6_hours">Every 6 hours</string>
+    <string name="every_12_hours">Every 12 hours</string>
+    <string name="every_1_day">Every day</string>
+    <string name="manually">Manually</string>
+    <string name="always">Always</string>
+    <string name="forever">Forever</string>
+    <string name="for_1_day">1 day</string>
+    <string name="for_2_days">2 days</string>
+    <string name="for_3_days">3 days</string>
+    <string name="for_1_week">1 week</string>
+    <string name="for_2_weeks">2 weeks</string>
+    <string name="for_1_month">1 month</string>
+    <string name="local">Local</string>
+    <string name="fever" translatable="false">Fever</string>
+    <string name="google_reader" translatable="false">Google Reader</string>
+    <string name="fresh_rss" translatable="false">FreshRSS</string>
+    <string name="feedly" translatable="false">Feedly</string>
+    <string name="inoreader" translatable="false">Inoreader</string>
+    <string name="local_desc">On this device</string>
+    <string name="services">Services</string>
+    <string name="feedly_desc" translatable="false">feedll.com</string>
+    <string name="inoreader_desc" translatable="false">inoreader.com</string>
+    <string name="self_hosted">Self-Hosted</string>
+    <string name="fresh_rss_desc" translatable="false">freshrss.org</string>
+    <string name="google_reader_desc" translatable="false">Google Reader API</string>
+    <string name="fever_desc" translatable="false">Fever API</string>
+    <string name="more">More</string>
+    <string name="add_accounts">Add accounts</string>
+    <string name="list">List</string>
+    <string name="add_accounts_desc">Local, Services, Self-Hosted</string>
+    <string name="display">Display</string>
+    <string name="synchronous">Syncing options</string>
+    <string name="sync_interval">Sync</string>
+    <string name="sync_once_on_start">Sync immediately on app launch</string>
+    <string name="only_on_wifi">Only on Wi-Fi</string>
+    <string name="only_when_charging">Only when charging</string>
+    <string name="keep_archived_articles">Read article retention time</string>
+    <string name="block_list">Block list</string>
+    <string name="export_as_opml">Export as OPML</string>
+    <string name="clear_all_articles">Clear all articles</string>
+    <string name="delete_account">Delete account</string>
+    <string name="clear_all_articles_tips">Are you sure you want to clear all articles from this account?</string>
+    <string name="delete_account_tips">Are you sure you want to delete this account?</string>
+    <string name="must_have_an_account">Must have an account</string>
+    <string name="clear_all_articles_toast">All articles from this account have been cleared</string>
+    <string name="delete_account_toast">This account has been deleted</string>
+    <string name="synchronous_tips">Restart is required for changes to take effect.</string>
+    <string name="switch_account">Switch</string>
+    <string name="add">Add</string>
+    <string name="accounts_tips">Click the account name on the feed page to switch them.</string>
+    <string name="server_url">Server URL</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="connection">Connection</string>
+    <string name="system_default">System</string>
+    <string name="preview">Preview</string>
+    <string name="display_summary">Dark theme, dynamic color, fonts and style settings</string>
+    <string name="reading_page_style">Style</string>
+    <string name="reading_page_style_summary">Reading page style</string>
+    <string name="groups">Groups</string>
+    <string name="importing_progress">Importing[%d/%d]: %s</string>
+    <string name="searching_progress">Searching[%d/%d]: %s</string>
+    <string name="dynamic_color">Dynamic Color</string>
+    <string name="dynamic_color_summary">Wallpaper theme color applied to the theme</string>
+    <string name="import_from_url">Add from RSS feed link</string>
+    <string name="import_from_opml">Import from OPML file</string>
+    <string name="about">about</string>
+    <string name="version">Version: %s</string>
+    <string name="unread_of_today">Today\'s unread</string>
+    <string name="recently_read">Recently read</string>
+    <string name="subscribe_feeds">Subscribe feeds</string>
+    <string name="agr_reader_pro" translatable="false">Agr Reader Pro</string>
+    <string name="use_activation_code">Use activation code</string>
+    <string name="group_option_delete_all_feeds_description">Confirm to delete all feeds under this group?</string>
+    <string name="update_banner_desc">Go to update now</string>
+    <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
+    <string name="config">Configuration</string>
+    <string name="configured">Configured</string>
+    <string name="not_configured">Not configured</string>
+    <string name="card">Card</string>
+    <string name="go">Go</string>
+    <string name="rename">Rename</string>
+    <string name="open_in_browser">Browser open</string>
+    <string name="reading_page_override_url_loading_toast">Whether to jump to the external browser to open the link</string>
+    <string name="agr_settings_navigation_and_feedback"><![CDATA[Navigation & feedback]]></string>
+    <string name="agr_pro_multiple_account_description">支持登录RSS自托管服务（支持Google Reader Api与Fever Api形式接入，如FreshRSS、Tiny Tiny Rss和Miniflux）</string>
+    <string name="agr_settings_navigation_and_feedback_desc">Guide and Feedback</string>
+    <string name="backup_settings_title"><![CDATA[Backup & recovery]]></string>
+    <string name="group_default_delete_error_toast">Can\'t delete the default group</string>
+    <string name="agr_pro_image_download_title">Download the pictures in the article</string>
+    <string name="backup_setting_backup_data_desc">Backup data until webdav network disk</string>
+    <string name="agr_pro_use_code">Use the redeem code</string>
+    <string name="agr_pro_more_description">According to the needs of PRO members, more functions are continuously increased and customized</string>
+    <string name="agr_pro_active_title">Thank you for your support!\nGives Agr Reader more motivation! \nThe following Pro features have been unlocked, go and experience them now!</string>
+    <string name="download_image_success_toast">The picture has been saved to /sdcard/pictures/Agrreader directory</string>
+    <string name="backup_setting_backup_data">Backup data</string>
+    <string name="toast_pro_active_sucess">The redeem code activation is successful!</string>
+    <string name="backup_restore_dialog_failure_toast">Data recovery fails, please check the server connection</string>
+    <string name="backup_webdav_configuration_server_address">Server address</string>
+    <string name="backup_and_restore_desc">Webdav configuration, backup recovery data</string>
+    <string name="placeholder_empty_articles">No article</string>
+    <string name="agr_pro_un_active_title">Upgrade to the PRO version immediately unlock the following functions</string>
+    <string name="agr_pro_all_inclusive_description">Unless the PRO version of the subscription source limit is limited (the general version can only subscribe at most 50)</string>
+    <string name="agr_pro_go_buy_code">Go to buy the redemption code</string>
+    <string name="download_image_fail_toast">Picture download failed</string>
+    <string name="other_options">other options</string>
+    <string name="Copy_article_link">Copy article link</string>
+    <string name="agr_pro_image_download_description">You can download the pictures preview of the article preview in the full -text analysis mode directly, and no longer miss the wonderful pictures</string>
+    <string name="agr_pro_history_title">You can view the recent reading history</string>
+    <string name="agr_pro_theme_description">After the upgrade, you can use the custom theme color option to select your favorite color, let\'s try it!</string>
+    <string name="backup_restore_dialog_success_toast">Data recovery success</string>
+    <string name="search_rss_url_illegal_error">Please enter the legal subscription link</string>
+    <string name="backup_webdav_configuration_username">Account</string>
+    <string name="agr_reader_pro_dialog_content">This feature requires Agr Reader Pro to use. Do you jump to the PRO introduction page?</string>
+    <string name="interception_resource_load">Intercept web resources loading</string>
+    <string name="search_rss_url_unknow_error">If the subscription fails, please check whether the link is valid or submitted feedback</string>
+    <string name="mark_feed_as_read">All the articles of the subscription source of the mark are read</string>
+    <string name="group_option_rename_default_toast">The default group cannot be renamed</string>
+    <string name="agr_pro_history_description">It is convenient for you to quickly review the articles that have been read before but forgot to collect</string>
+    <string name="toast_pro_active_failure">For activation failure, please check whether the redemption code is valid</string>
+    <string name="interception_resource_load_desc">You can try it when you can\'t load some contents of the article.</string>
+    <string name="agr_pro_multiple_account_title">Multi-RSS subscription account support</string>
+    <string name="backup_webdav_dialog_tips">After the configuration is completed, the Agrreader directory will be created by the main folder default to the content required for synchronization</string>
+    <string name="backup_upload_dialog_desc">All current subscription data will be uploaded to the Agrreader folder in Webdav</string>
+    <string name="backup_setting_not_configured_toast">Please configure webdav first</string>
+    <string name="agr_pro_more_title">More PRO function</string>
+    <string name="placeholder_empty_feeds">No subscription stream</string>
+    <string name="Copied_article_link">The article link has been copied</string>
+    <string name="backup_webdav_dialog_title">Webdav network disk configuration</string>
+    <string name="group_option_delete_all_feeds">Delete all subscriptions in the group</string>
+    <string name="backup_webdav_configuration_failure_toast">Connect to the webdav server failed, please check the configuration information</string>
+    <string name="backup_webdav_configuration_success_toast">WEBDAV configuration successfully</string>
+    <string name="agr_reader_pro_dialog_max_subscribe_content">The maximum subscription number can be reached by the ordinary version of 50. Is it open to the PRO version to unlock the subscription limit?</string>
+    <string name="initial_filter_state_title">Default filtering status</string>
+    <string name="backup_setting_restore_data_desc">Request data from webdav network disk to local</string>
+    <string name="backup_webdav_configuration_password">Application password</string>
+    <string name="backup_setting_webdav_configuration">Webdav configuration</string>
+    <string name="notification_request_dialog_content">Do you go to the application settings to open the notification authority?</string>
+    <string name="agr_pro_activation_code">Exchange code</string>
+    <string name="agr_pro_all_inclusive_title">Number of subscription sources</string>
+    <string name="notification_name_article_update">Tweet update</string>
+    <string name="notification_request_dialog_title">The notification authority is not opened</string>
+    <string name="backup_setting_restore_data">Data recovery</string>
+    <string name="backup_upload_dialog_failure_toast">Data backup failed, please check the server connection</string>
+    <string name="backup_upload_dialog_success_toast">Data backup success</string>
+    <string name="backup_webdav_dialog_desc">It should be noted that the password is used, please use the corresponding application password instead of the account password</string>
+    <string name="agr_pro_theme_title">Can freely select the theme color configuration</string>
+    <string name="interactive_hapic_setting_title">开启点击反馈效果</string>
+    <string name="interactive_hapic_setting_description">切换后重启App后生效</string>
+    <string name="interactive_subtitle_rss_feed">订阅源列表页</string>
+    <string name="interactive_subtitle_article_feed">文章列表页</string>
+    <string name="interactive_mark_read_when_scrolling_setting_title">随滚动标记已读</string>
+    <string name="interactive_mark_read_when_scrolling_setting_description">滑出顶部的文章自动标记为已读</string>
+    <string name="interactive_subtitle_reading">阅读页</string>
+    <string name="interactive_translation_setting_title">翻译设置</string>
+    <string name="rss_server_operation_disable_toast">RSS服务暂不支持该操作</string>
+    <string name="interactive_translation_setting_descrption">翻译相关设置项</string>
+    <string name="agr_pro_translation_title">沉浸式翻译能力支持</string>
+    <string name="agr_pro_translation_description">一键开启沉浸式翻译：普通版仅提供有限的效果，Pro版同时支持文章标题与内容的翻译，轻松实现外文阅读</string>
+    <string name="interactive_left_swipe_title">向左滑动</string>
+    <string name="interactive_right_swipe_title">向右滑动</string>
+    <string name="article_swipe_operation_none">无</string>
+    <string name="article_swipe_operation_read">已读/未读</string>
+    <string name="article_swipe_operation_star">收藏/未收藏</string>
+    <string name="feed_sync_limit_count_title">订阅源每次同步文章数量限制</string>
+    <string name="article_translate_setting">文章翻译功能</string>
+    <string name="article_translate_language_setting">翻译语言设置</string>
+    <string name="feed_management">订阅源管理</string>
+    <string name="group_sort">分组排序</string>
+    <string name="feed_management_none_selected">无已选择的订阅源</string>
+    <string name="feed_management_unsubscribe_tips">取消账号\'%1$s\'下已选择的订阅源？</string>
+    <string name="move_selected_feeds_to_group">移动已选择的订阅源到\'%1$s\'分组?</string>
+    <string name="group_and_feed_management">分组与订阅源管理</string>
+    <string name="dialog_delete_group_text">是否确认删除\'%1$s\'分组？</string>
+    <string name="dialog_delete_group_default_option">仅删除分组，訂閱源移至默認分組</string>
+    <string name="dialog_delete_group_warning_option">⚠️删除分组及分组内訂閱源</string>
+    <string name="backup_restore_failure_path_error">备份文件路径异常</string>
+    <string name="notification_feed_subtitle">Updated with %1$s articles.</string>
+    <string name="feed_info_article_source_tooltip">文章内容存在展示问题时可尝试切换。\n内容摘要：由订阅源提供的文章摘要内容；\n全文解析：解析文章原文；\n内嵌网页：文章网页页面；</string>
+    <string name="feed_info_allow_notification_tooltip">需要电池策略为非受限策略或者不限制后台行为及自启动。</string>
+</resources>

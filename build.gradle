@@ -1,0 +1,67 @@
+buildscript {
+    ext {
+        android = [
+                compileSdkVersion: 34,
+                minSdkVersion    : 21,
+                targetSdkVersion : 34,
+                versionCode      : 1006005,
+                versionName      : "1.6.5"
+        ]
+
+        // https://developer.android.com/jetpack/androidx/releases/compose-compiler
+        composeCompiler = "1.5.9"
+        // https://developer.android.com/jetpack/androidx/releases/compose-ui
+        composeUi = '1.6.1'
+        // https://github.com/google/accompanist/releases
+        accompanist = '0.32.0'
+        // https://developer.android.com/jetpack/androidx/releases/compose-material3
+        material3 = '1.2.0'
+        // https://developer.android.com/jetpack/androidx/releases/lifecycle
+        lifecycle = '2.6.2'
+        // https://developer.android.com/jetpack/androidx/releases/navigation
+        navigation = '2.7.7'
+        // https://developer.android.com/jetpack/androidx/releases/paging
+        paging = '3.2.1'
+        // https://developer.android.com/jetpack/androidx/releases/room
+        room = '2.6.0'
+        // https://developer.android.com/jetpack/androidx/releases/datastore
+        datastore = '1.0.0'
+        // https://developer.android.com/jetpack/androidx/releases/work
+        work = '2.8.1'
+        // https://square.github.io/okhttp/changelogs/changelog/
+        okhttp = '5.0.0-alpha.11'
+        retrofit2 = '2.9.0'
+        // https://github.com/google/dagger
+        hilt = '2.48.1'
+        // https://coil-kt.github.io/coil/changelog/
+        coil = '2.6.0'
+        // https://github.com/Kotlin/kotlinx.coroutines
+        coroutine = "1.8.0"
+        // https://github.com/rometools/rome
+        rome = '2.1.0'
+        // https://github.com/dankito/Readability4J
+        readability4j = '1.0.8'
+        // https://github.com/mdewilde/opml-parser
+        opmlParser = '3.1.0'
+        // http://bigbadaboom.github.io/androidsvg/release_notes.html
+        androidSVG = '1.4'
+        // https://developer.android.com/jetpack/androidx/releases/glance
+        glance = '1.0.0'
+    }
+
+    dependencies {
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.7"
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.1.0' apply false
+    id 'com.android.library' version '8.1.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id 'com.google.dagger.hilt.android' version '2.48.1' apply false
+    id 'com.google.devtools.ksp' version '1.9.22-1.0.17' apply false
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

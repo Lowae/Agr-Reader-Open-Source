@@ -1,0 +1,64 @@
+def keyProps = new Properties()
+def keyPropsFile = rootProject.file("signature/keystore.properties")
+if (keyPropsFile.exists()) {
+    println("Loading keystore properties from ${keyPropsFile.absolutePath}")
+    keyProps.load(new FileInputStream(keyPropsFile))
+}
+
+android {
+    compileSdk rootProject.android.compileSdkVersion
+
+    defaultConfig {
+        minSdk rootProject.android.minSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
+    }
+    signingConfigs {
+        release {
+            keyAlias keyProps["keyAlias"]
+            keyPassword keyProps["keyPassword"]
+            storeFile keyProps["storeFile"] ? file(keyProps["storeFile"]) : null
+            storePassword keyProps["storePassword"]
+            enableV1Signing true
+            enableV2Signing true
+            enableV3Signing true
+        }
+    }
+    buildTypes {
+        debug {
+            buildConfigField "long", "BUILD_TIME", System.currentTimeMillis().toString()
+        }
+        release {
+            buildConfigField "long", "BUILD_TIME", System.currentTimeMillis().toString()
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
+        }
+    }
+    flavorDimensions "channel"
+    productFlavors {
+        Official {
+            isDefault true
+            dimension "channel"
+        }
+        GooglePlay {
+            dimension "channel"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    buildFeatures {
+        viewBinding true
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion composeCompiler
+    }
+}
